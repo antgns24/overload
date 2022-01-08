@@ -106,7 +106,7 @@ def aktif():
 				"type":"contact",
 				"edit":"website",
 				"add_website":"1",
-				"new_info":"https://overload_rizky.com/"+fo,
+				"new_info":"https://overloadrizki.com/"+fo,
 				"save":"Tambahkan"
 				}
 			y=ses.post(host_url+'/a/editprofile.php', data=data, cookies=__cookie(), headers=head)
